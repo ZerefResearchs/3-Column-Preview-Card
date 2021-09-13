@@ -1,0 +1,130 @@
+body {
+  color: hsl(0, 0%, 95%);
+}
+
+h2 {
+  margin: 55px 0 0 35px;
+  color: hsl(0, 0%, 95%);
+  font-size: 2em;
+  font-family: 'Big Shoulders Display',cursive ;
+}
+
+.Sedan {
+  width: 275px;
+  background-color: hsl(31, 77%, 52%);
+  position: absolute;
+  top: 150px;
+  left: 325px;
+  right: 0;
+  bottom: 185px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.sedan {
+  position: relative;
+  left: 30px;
+  top: 30px;
+}
+
+.Suv {
+  width: 275px;
+  background-color: hsl(184, 100%, 22%);
+  position: absolute;
+  top: 150px;
+  left: 600px;
+  right: 0;
+  bottom: 185px;
+}
+
+.suv {
+  position: relative;
+  left: 30px;
+  top: 30px;
+}
+
+.Luxury {
+  width: 275px;
+  background-color: hsl(179, 100%, 13%);
+  position: absolute;
+  top: 150px;
+  left: 875px;
+  right: 0;
+  bottom: 185px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.luxury {
+  position: relative;
+  left: 30px;
+  top: 30px;
+}
+
+.para {
+  color: hsla(0, 0%, 100%, 0.75);
+  margin-top: 35px;
+  margin-left: 40px;
+  font-size: 15px;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.btn1 {
+  -webkit-border-radius: 20;
+  -moz-border-radius: 20;
+  border-radius: 20px;
+  font-family: Arial;
+  color: #f28509;
+  background: #ededed;
+  padding: 10px 20px 10px 20px;
+  border: solid #f7f7f7 2px;
+  text-decoration: none;
+  margin-left: 35px;
+  position: relative;
+  top: 65px;
+}
+
+.btn1:hover {
+  background: #dbdbdb;
+  text-decoration: none;
+}
+
+.btn2 {
+  -webkit-border-radius: 20;
+  -moz-border-radius: 20;
+  border-radius: 20px;
+  font-family: Arial;
+  color: #318774;
+  background: #ededed;
+  padding: 10px 20px 10px 20px;
+  border: solid #f7f7f7 2px;
+  text-decoration: none;
+  margin-left: 35px;
+  position: relative;
+  top: 65px;
+}
+
+.btn2:hover {
+  background: #dbdbdb;
+  text-decoration: none;
+}
+
+.btn3 {
+  -webkit-border-radius: 20;
+  -moz-border-radius: 20;
+  border-radius: 20px;
+  font-family: Arial;
+  color: #0d5947;
+  background: #ededed;
+  padding: 10px 20px 10px 20px;
+  border: solid #f7f7f7 2px;
+  text-decoration: none;
+  margin-left: 35px;
+  position: relative;
+  top: 65px;
+}
+
+.btn3:hover {
+  background: #dbdbdb;
+  text-decoration: none;
+}
